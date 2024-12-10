@@ -1,0 +1,73 @@
+/* Alapbeállítások */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(vilagos.jpg);
+}
+
+/* Navigáció */
+header nav ul {
+    list-style: none;
+    display: flex;
+    background: #333;
+    padding: 1em;
+    justify-content: center
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hős kép */
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+/* Táblázat */
+table {
+    width: 80%;
+    margin: 2em auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    padding: 1em;
+}
+
+/* Kártyák */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+}
+
+.card {
+    background-color:grey
+    padding: 2em;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: white;
+}
+img{
+    height: 300px;
+}
